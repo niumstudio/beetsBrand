@@ -2,67 +2,40 @@
 * generated using stylus - don't alter
 */
 
-/* =============================================================================
-   webfonts
-   ========================================================================== */
 @font-face {
-    font-family: 'avenir';
-    src: url('../fonts/avenir/avenir-light.woff2') format('woff2'),
-         url('../fonts/avenir/avenir-light.woff') format('woff');
+    font-family: 'gotham';
+    src: url('/fonts/gotham/gotham-light-webfont.woff2') format('woff2'),
+         url('/fonts/gotham/gotham-light-webfont.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'gotham';
+    src: url('/fonts/gotham/gotham-book-webfont.woff2') format('woff2'),
+         url('/fonts/gotham/gotham-book-webfont.woff') format('woff');
     font-weight: 300;
     font-style: normal;
-
 }
 
 @font-face {
-    font-family: 'avenir';
-    src: url('../fonts/avenir/avenir-book.woff2') format('woff2'),
-         url('../fonts/avenir/avenir-book.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'avenir';
-    src: url('../fonts/avenir/avenir-roman.woff2') format('woff2'),
-         url('../fonts/avenir/avenir-roman.woff') format('woff');
+    font-family: 'gotham';
+    src: url('/fonts/gotham/gotham-medium-webfont.woff2') format('woff2'),
+         url('/fonts/gotham/gotham-medium-webfont.woff') format('woff');
     font-weight: 500;
     font-style: normal;
 
 }
 
 @font-face {
-    font-family: 'avenir';
-    src: url('../fonts/avenir/avenir-medium.woff2') format('woff2'),
-         url('../fonts/avenir/avenir-medium.woff') format('woff');
-    font-weight: 600;
+    font-family: 'gotham';
+    src: url('/fonts/gotham/gotham-bold-webfont.woff2') format('woff2'),
+         url('/fonts/gotham/gotham-bold-webfont.woff') format('woff');
+    font-weight: 700;
     font-style: normal;
 
 }
-
-@font-face {
-    font-family: 'avenir';
-    src: url('../fonts/avenir/avenir-heavy.woff2') format('woff2'),
-         url('../fonts/avenir/avenir-heavy.woff') format('woff');
-    font-weight: 800;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'avenir';
-    src: url('../fonts/avenir/avenir-black.woff2') format('woff2'),
-         url('../fonts/avenir/avenir-black.woff') format('woff');
-    font-weight: 900;
-    font-style: normal;
-
-}
-
-
-
-
-
 /*
 *
 *
@@ -79,7 +52,7 @@ html,
 body {
   width: 100%;
   height: 100%;
-  font-family: "avenir", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "gotham", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 body {
   font-size: 16px;
